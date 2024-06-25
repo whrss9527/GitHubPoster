@@ -12,10 +12,10 @@ on:
   
 env:
   TYPE: "AppleHealthData"
-  ME: whrsss
+  ME: whrss9527
   # change env here
-  GITHUB_NAME: whrsss
-  GITHUB_EMAIL: 1593774151@qq.com
+  GITHUB_NAME: whrss9527
+  GITHUB_EMAIL: whrss9527@gmail.com
 jobs:
   sync:
     name: Sync
