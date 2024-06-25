@@ -67,7 +67,7 @@ jobs:
 
       - name: Clone target repository
         run: |
-          git clone https://github.com/whrsss9527/whrss9527.git target-repo
+          git clone https://github.com/whrss9527/whrss9527 target-repo
         env:
           GITHUB_TOKEN: ${{ secrets.WHRSS9527_ACCESS_TOKEN }}
 
