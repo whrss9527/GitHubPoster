@@ -82,7 +82,7 @@ jobs:
           git config --local user.name "${{ env.GITHUB_NAME }}"
           git add AppleHealthData.svg
           git commit -m 'Update poster from source repository'
-          git remote set-url origin https://x-access-token:${{ secrets.WHRSS9527_ACCESS_TOKEN }}@github.com/whrsss9527/whrss9527
+          git remote set-url origin https://x-access-token:${{ secrets.WHRSS9527_ACCESS_TOKEN }}@github.com/whrss9527/whrss9527
           git push origin main
         env:
           GITHUB_TOKEN: ${{ secrets.WHRSS9527_ACCESS_TOKEN }}
