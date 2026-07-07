@@ -9,13 +9,12 @@ on:
       value:
         description: 'value str'
         required: false
-  
 env:
   TYPE: "AppleHealthData"
   ME: whrss9527
   # change env here
-  GITHUB_NAME: whrss9527
-  GITHUB_EMAIL: whrss9527@gmail.com
+  GITHUB_NAME: github-actions[bot]
+  GITHUB_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
 jobs:
   sync:
     name: Sync
